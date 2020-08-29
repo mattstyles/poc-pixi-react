@@ -1,0 +1,45 @@
+{
+  "name": "pixi-water-matrix-sim",
+  "version": "1.0.0",
+  "description": "Matrix practise. Simulating water movement in a matrix.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node scripts/test.js ./src/**/**.test.js",
+    "start": "DEBUG=true parcel src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "standard": {
+    "parser": "babel-eslint",
+    "ignore": [
+      "**/node_modules/**",
+      "**/lib/"
+    ]
+  },
+  "dependencies": {
+    "@raid/basic-kit": "^0.18.2",
+    "eventemitter3": "^4.0.5",
+    "pixi.js": "^5.3.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "stats.js": "^0.17.0",
+    "styled-components": "^5.1.1",
+    "styled-system": "^5.1.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.4",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "@babel/register": "^7.10.5",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-lodash": "^3.3.4",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "babel-plugin-styled-components": "^1.11.1",
+    "babel-plugin-transform-react-require": "^1.0.1",
+    "parcel-bundler": "^1.12.4",
+    "standard": "^14.3.4"
+  }
+}
